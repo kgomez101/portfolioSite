@@ -8,10 +8,7 @@
       :large="large"
       color="info"
     >
-      <v-icon
-        dark
-        v-text="item.icon"
-      />
+      <v-icon dark v-text="item.icon" />
     </v-btn>
   </div>
 </template>
@@ -28,26 +25,26 @@ export default {
   data: () => ({
     items: [
       {
-        name: 'Twitter',
-        icon: 'mdi-twitter'
+        name: "Twitter",
+        icon: "mdi-twitter"
       },
       {
-        name: 'Instagram',
-        icon: 'mdi-instagram'
+        name: "Instagram",
+        icon: "mdi-instagram"
       },
       {
-        name: 'Facebook',
-        icon: 'mdi-facebook'
+        name: "Facebook",
+        icon: "mdi-facebook"
       },
       {
-        name: 'Email',
-        icon: 'mdi-email'
+        name: "Email",
+        icon: "mdi-email"
       },
       {
-        name: 'Phone',
-        icon: 'mdi-phone'
+        name: "Phone",
+        icon: "mdi-phone"
       }
     ]
   })
-}
+};
 </script>

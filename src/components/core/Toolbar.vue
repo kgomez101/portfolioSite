@@ -13,7 +13,7 @@
 <script>
 export default {
   components: {
-    SocialMedia: () => import('@/components/SocialMedia')
+    SocialMedia: () => import("@/components/SocialMedia")
   },
 
   data: () => ({
@@ -21,9 +21,9 @@ export default {
   }),
 
   methods: {
-    onScroll () {
-      this.isTransparent = window.pageYOffset < 200
+    onScroll() {
+      this.isTransparent = window.pageYOffset < 200;
     }
   }
-}
+};
 </script>
