@@ -9,7 +9,8 @@
         md6
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
+          contain
+          :src="require('@/assets/KimPro.jpg')"
           height="100vh"
         />
       </v-flex>
@@ -34,7 +35,7 @@
             xs10
             md6
           >
-            <base-heading>Welcome!</base-heading>
+            <base-heading>Hi I'm Kim Welcome To My Site!</base-heading>
             <base-text>
               Lorem ipsum dolor sit amet, consectetur ad
               ipiscin elit. Etiam vulputate augue vel felis gra
