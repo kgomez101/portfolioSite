@@ -1,4 +1,4 @@
-# kim
+# Repository for Kimberly Gomez's Web Portfolio
 
 ## Project setup
 ```
